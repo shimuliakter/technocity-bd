@@ -1,0 +1,29 @@
+/* sidebar starts */
+.sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #f1f1f1;
+    overflow: auto;
+}
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 16px;
+    font-size: 14px;
+}
+.sidebar i{
+    font-size: 20px;
+}
+.sidebar a.active{
+    background-color: #555;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+.sidebar a:hover:not(.active){
+    background-color: rgb(144, 143, 143);
+    color: #fff;
+}
+/* sidebar ends */
